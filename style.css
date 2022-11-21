@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+    background-image: url(./img/backgroud.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.homework ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+    background-color: green ;
+    padding: 10px 15px;
+    opacity: .7;
+    border-radius: 10px;
+    transition: all .5s;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.homework ul li a:hover{
+    background-color: black;    
+    color: rgb(45, 199, 233);
+}
+.homework ul li {
+    list-style: none;
+    display: inline;
+
+}
+header {
+    color: aliceblue;
+}
+.createNumber input{
+padding: 5px;
+padding: 5px 10px;
+border-radius: 8px;
+border: none;
+font-size: 15px;
+}
+.createNumber button{
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    transition: all .3s;
+}
+.createNumber button:hover {
+    background-color: black;    
+    color: rgb(45, 199, 233);
+}
+main table{
+    background-color: white;
+    margin: auto;
+    margin-top: 90px;
+    
+   
+}
+.homework_left button,.homework_right button {
+    padding: 5px 20px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: all .3s;
+   
+}
+.homework_right button.local{
+    margin-bottom: 15px;
+}
+.homework_right button:hover,.homework_left button:hover{
+    background-color: aqua;
+    color: black;
+}
+.homework_left,.homework_right{
+    position: absolute;
+    text-align: left;
+}
+.homework_left h2,.homework_right h2{
+    text-align: center;
+   
+    
+    margin: 10px 0;
+   
+    opacity: .7;
+    padding: 10px 0;
+}
+.homework_left h2.active,.homework_right h2.active{
+    background-color: blanchedalmond;
+    color: black;
+    opacity: 1;
+}
+.homework_left{
+    top: 25%;
+    left: 20%;
+}
+.homework_right{
+    top: 25%;
+    right: 10%;
+}
